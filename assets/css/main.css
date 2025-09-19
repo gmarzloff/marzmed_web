@@ -547,10 +547,10 @@ input, select, textarea {
 		display: inline-block;
 		opacity: 0;
 		position: relative;
-		text-align: center;
+		text-align: left;
 		top: -1em;
 		vertical-align: middle;
-		width: 90%;
+		width: 70%;
 	}
 
 		#header h1 {
@@ -561,8 +561,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
+			font-size: 1.75em;
+			margin: 0.75em 0 0.25em 0.75em;
 			opacity: 0.75;
 		}
 
@@ -1078,4 +1078,21 @@ input, select, textarea {
 
 		#header nav {
 			padding: 0 1em;
-		} }
+		}
+	}
+
+		#portrait { 
+			float: left; 
+			height: 200px; 
+			width: 200px; 
+			border: solid 1px darkblue;
+			border-radius: 100px;
+			background-image: url('../img/gm_vectorized_med.png');
+			background-size: contain;
+			margin-right:15px;
+		}
+
+		#header_right { margin-left:200px; }
+		#header_right p { margin-left: 10px;}
+		#header_right ul {text-align:  center;}
+		#header_right::after {clear: both;}

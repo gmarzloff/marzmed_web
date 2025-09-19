@@ -1087,7 +1087,7 @@ input, select, textarea {
 			width: 200px; 
 			border: solid 1px darkblue;
 			border-radius: 100px;
-			background-image: url('../img/gm_vectorized_med.png');
+			background-image: url('../img/gm_vectorized_gray_med.png');
 			background-size: contain;
 			margin-right:15px;
 		}

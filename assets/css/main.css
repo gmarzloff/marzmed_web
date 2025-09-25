@@ -1092,7 +1092,10 @@ input, select, textarea {
 			margin-right:15px;
 		}
 
-		#header_right { margin-left:200px; }
-		#header_right p { margin-left: 10px;}
+		#header_right { 
+			float:left;
+			margin-left:10px; 
+		}
+		#header_right p { margin-left: 5px;}
 		#header_right ul {text-align:  center;}
 		#header_right::after {clear: both;}
